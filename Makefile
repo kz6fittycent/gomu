@@ -4,7 +4,7 @@ GIT_PATH     = github.com/issadarkthing
 BIN_NAME     = gomu
 REPO_NAME    = gomu
 BIN_DIR     := $(CURDIR)/bin
-INSTALL_DIR := $${HOME}/.local/bin
+INSTALL_DIR := /bin
 VERSION      = $(shell git describe --abbrev=0 --tags)
 GIT_COMMIT   = $(shell git rev-parse HEAD)
 BUILD_DATE   = $(shell date '+%Y-%m-%d-%H:%M:%S')

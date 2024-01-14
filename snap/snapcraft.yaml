@@ -18,7 +18,7 @@ assumes:
   
 apps:
   gomu:
-    command: $SNAP/.local/bin/gomu
+    command: bin/gomu
     command-chain: 
       - bin/homeishome-launch     
     plugs:

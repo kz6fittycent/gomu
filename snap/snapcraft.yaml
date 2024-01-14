@@ -37,6 +37,8 @@ parts:
       - libasound2-dev
       - youtube-dl
       - pkg-config
+    stage-packages:
+      - libasound
       
     override-pull: |
       snapcraftctl pull
